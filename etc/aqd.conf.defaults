@@ -356,6 +356,8 @@ object_declarations_template = false
 # When true, only display a warning if a feature template doesn't
 # exist in a domain Git repository
 relaxed_feature_template_check = False
+# Use rack name in machine namespace
+machine_ns_rack_fullname = False
 
 [tool_timeout]
 # If set to True, timeout will be set to 'default_value' for any tools run via subprocess
